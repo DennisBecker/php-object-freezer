@@ -20,6 +20,9 @@
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     },
+    {
+        "include-path": ["."]
+    }
     "autoload": {
         "psr-0": {
             "Object_": "."
